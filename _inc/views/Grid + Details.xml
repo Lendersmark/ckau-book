@@ -26,14 +26,14 @@
 			<horizontalAlignment>right</horizontalAlignment>
 			<color>FFFF00B0</color>
 		</image>
-		<image name="gamelistBackground" extra="true">
+		<!-- Shows semitransparent sidebar, only if selected in Colorful theme -->
+		<image name="gamelistBackground" extra="true" ifSubset="systembackground:Colorful (sidebar)">
 			<path>./../../_inc/images/space.png</path>
-			<color>14141430</color>
+			<color>14141420</color>
 			<origin>0 0</origin>
 			<pos>0.66 0</pos>
 			<size>0.34 1</size>
 			<zIndex>12</zIndex>
-			<visible>false</visible>
 		</image>
 		<image name="md_image">
 			<visible>false</visible>
