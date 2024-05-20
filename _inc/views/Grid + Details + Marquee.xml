@@ -10,20 +10,28 @@
 			<visible>true</visible>
 			<zIndex>120</zIndex>
 		</image>
-		<text name="md_developer">
+		<!--<text name="md_developer">
 			<visible>false</visible>
-		</text>
+		</text>-->
 		<text name="md_name" extra="true">
 			<pos>0.005 0.005</pos>
 			<alignment>left</alignment>
 			<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
 			<color>${clockColor}</color>
-			<fontSize>0.02</fontSize>
+			<fontSize>0.022</fontSize>
 			<lineSpacing>1.1</lineSpacing>
 			<zIndex>140</zIndex>
-			<size>0.50 0.02</size>
+			<size>0.50 0.022</size>
 			<glowColor>${glowColor}</glowColor>
 			<glowSize>0</glowSize>
+		</text>
+		<text name="md_developer">
+			<color>${clockColor}</color>
+			<pos>0.005 0.01</pos>
+			<size>0.30 0.05</size>
+			<alignment>left</alignment>
+			<fontSize>0.015</fontSize>
+			<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
 		</text>
 	</customView>
 </theme>

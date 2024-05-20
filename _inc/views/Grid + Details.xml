@@ -43,7 +43,7 @@
 			<size>0.30 0.1</size>
 			<color>${textNameColor}</color>
 			<color ifSubset="gamelistbgcolor:Default">FFFFFF</color>
-			<fontSize>0.035</fontSize>
+			<fontSize>0.04</fontSize>
 			<fontPath>./../../_inc/fonts/Gilroy-Bold.ttf</fontPath>
 			<alignment>center</alignment>
 			<verticalAlignment>bottom</verticalAlignment>
@@ -56,8 +56,8 @@
 			<pos>0.68 0.17</pos>
 			<size>0.30 0.05</size>
 			<alignment>center</alignment>
-			<fontSize>0.020</fontSize>
-			<fontPath>./../../_inc/fonts/Gilroy-Light.ttf</fontPath>
+			<fontSize>0.015</fontSize>
+			<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
 		</text>
 		<video name="md_video">
 			<pos>0.83 0.455</pos>
