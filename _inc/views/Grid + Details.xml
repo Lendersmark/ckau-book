@@ -9,7 +9,7 @@
 		</image>
 		<imagegrid name="gamegrid">
 			<size>0.66 0.79</size>
-			<autoLayout>6 2</autoLayout>
+			<autoLayout>5 2</autoLayout>
 			<autoLayout if="${screen.ratio} == '21/9'">7 2</autoLayout>
 			<margin>0.005 0.010</margin>
 			<padding>0.03 0.04 0.03 0.1</padding>
@@ -54,6 +54,15 @@
 			<color>${textManufacturerColor}</color>
 			<color ifSubset="gamelistbgcolor:Default">FFFFFF</color>
 			<pos>0.68 0.17</pos>
+			<size>0.30 0.05</size>
+			<alignment>center</alignment>
+			<fontSize>0.022</fontSize>
+			<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+		</text>
+		<text name="md_genre">
+			<color>${textManufacturerColor}</color>
+			<color ifSubset="gamelistbgcolor:Default">FFFFFF</color>
+			<pos>0.68 0.195</pos>
 			<size>0.30 0.05</size>
 			<alignment>center</alignment>
 			<fontSize>0.015</fontSize>

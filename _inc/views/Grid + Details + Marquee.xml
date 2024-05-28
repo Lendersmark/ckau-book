@@ -10,9 +10,6 @@
 			<visible>true</visible>
 			<zIndex>120</zIndex>
 		</image>
-		<!--<text name="md_developer">
-			<visible>false</visible>
-		</text>-->
 		<text name="md_name" extra="true">
 			<pos>0.005 0.005</pos>
 			<alignment>left</alignment>

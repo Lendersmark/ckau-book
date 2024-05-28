@@ -67,7 +67,7 @@
 			<color>${textDateColor}</color>
 			<backgroundColor>00000000</backgroundColor>
 			<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
-			<fontSize>0.016</fontSize>
+			<fontSize>0.02</fontSize>
 			<alignment>center</alignment>
 			<size>0.9 0.22</size>
 		</text>
