@@ -13,7 +13,7 @@
 		<text name="md_name" extra="true">
 			<pos>0.005 0.005</pos>
 			<alignment>left</alignment>
-			<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
 			<color>${clockColor}</color>
 			<fontSize>0.02</fontSize>
 			<lineSpacing>1.1</lineSpacing>
@@ -28,7 +28,7 @@
 			<size>0.30 0.05</size>
 			<alignment>left</alignment>
 			<fontSize>0.015</fontSize>
-			<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
 		</text>
 		<text name="md_genre">
 			<color>${clockColor}</color>
@@ -36,7 +36,7 @@
 			<size>0.30 0.05</size>
 			<alignment>left</alignment>
 			<fontSize>0.015</fontSize>
-			<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
 		</text>
 	</customView>
 </theme>

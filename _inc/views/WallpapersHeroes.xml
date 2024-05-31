@@ -24,7 +24,7 @@
 			<pos>-0.05 0</pos>
 			<size>1 0.03</size>
 			<alignment>center</alignment>
-			<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
 			<color>FFFFFF1F</color>
 			<fontSize>0.025</fontSize>
 			<lineSpacing>1.1</lineSpacing>
@@ -94,7 +94,7 @@
 			<zIndex>1</zIndex>
 		</image>
 		<text name="md_description">
-			<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
 			<pos>0.273 0.31</pos>
 			<size>0.4 0.23</size>
 			<lineSpacing>1.1</lineSpacing>
@@ -132,14 +132,14 @@
 			<pos>0.784375 0.1527777777777778</pos>
 			<size>0.15625 0.0555555555555556</size>
 			<fontSize>0.0444444444444444</fontSize>
-			<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
 			<forceUppercase>true</forceUppercase>
 			<color>555555</color>
 		</text>
 
 		<text name="md_genre,md_developer,md_publisher,md_playcount,md_gametime, md_releasedate, md_lastplayed">
 			<color>666666</color>
-			<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
 			<fontSize>0.0194444444444444</fontSize>
 		</text>
 

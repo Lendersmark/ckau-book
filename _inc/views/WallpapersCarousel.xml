@@ -83,7 +83,7 @@
 		<text name="md_name" extra="true">
 			<pos>0.005 0.005</pos>
 			<alignment>left</alignment>
-			<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
 			<color>FFFFFF1F</color>
 			<fontSize>0.02</fontSize>
 			<lineSpacing>1.1</lineSpacing>
@@ -126,7 +126,7 @@
 			</storyboard>
 		</image>
 		<text name="md_description">
-			<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
 			<pos>0.025 0.226111111111111</pos>
 			<size>0.3098125 0.2880555555555556</size>
 			<fontSize>0.025</fontSize>
@@ -196,7 +196,7 @@
 			<pos>0.784375 0.1527777777777778</pos>
 			<size>0.15625 0.0555555555555556</size>
 			<fontSize>0.0444444444444444</fontSize>
-			<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
 			<forceUppercase>true</forceUppercase>
 			<color>555555</color>
 		</text>
@@ -209,7 +209,7 @@
 			<size>0.1 0.0222222222222222</size>
 			<alignment>left</alignment>
 			<format>%Y</format>
-			<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
 			<fontSize>0.0254444444444444</fontSize>
 			<color>666666</color>
 		</datetime>

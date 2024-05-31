@@ -39,11 +39,12 @@
 			<visible>false</visible>
 		</image>
 		<text name="md_name">
-			<pos>0.68 0.08</pos>
-			<size>0.30 0.1</size>
+			<pos>0.68 0.02</pos>
+			<size>0.30 0.15</size>
 			<color>${textNameColor}</color>
 			<color ifSubset="gamelistbgcolor:Default">FFFFFF</color>
 			<fontSize>0.04</fontSize>
+			<lineSpacing>1.1</lineSpacing>
 			<fontPath>./../../_inc/fonts/Gilroy-Bold.ttf</fontPath>
 			<alignment>center</alignment>
 			<verticalAlignment>bottom</verticalAlignment>
@@ -57,7 +58,7 @@
 			<size>0.30 0.05</size>
 			<alignment>center</alignment>
 			<fontSize>0.022</fontSize>
-			<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
 		</text>
 		<text name="md_genre">
 			<color>${textManufacturerColor}</color>
@@ -66,7 +67,7 @@
 			<size>0.30 0.05</size>
 			<alignment>center</alignment>
 			<fontSize>0.015</fontSize>
-			<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
 		</text>
 		<video name="md_video">
 			<pos>0.83 0.455</pos>
@@ -89,7 +90,7 @@
 			<fontSize>0.022</fontSize>
 			<color>${textDescColor}</color>
 			<color ifSubset="gamelistbgcolor:Default">FFFFFF80</color>
-			<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
 		</text>
 		<datetime name="md_releasedate">
 			<origin>0 0</origin>

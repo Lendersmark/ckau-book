@@ -11,12 +11,12 @@
 		</text>
 		<text name="md_players,md_genre,md_description,md_developer,md_publisher,md_playcount,md_gametime">
 			<color>111111</color>
-			<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
 			<fontSize>0.0194444444444444</fontSize>
 		</text>
 		<datetime name="md_lastplayed,md_releasedate">
 			<color>111111</color>
-			<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
 			<fontSize>0.0194444444444444</fontSize>
 		</datetime>
 		<video name="md_video">
@@ -62,7 +62,7 @@
 			<zIndex>106</zIndex>
 		</image>-->
 		<text name="md_description">
-			<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
 			<pos>0.061875 0.705111111111111</pos>
 			<size>0.6188125 0.2240555555555556</size>
 			<lineSpacing>1.18</lineSpacing>
@@ -91,7 +91,7 @@
 			<secondaryColor>cccccc</secondaryColor>
 			<extraTextColor>555555</extraTextColor>
 			<extraTextSelectedColor>A0A0A0</extraTextSelectedColor>
-			<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
 			<forceUppercase>1</forceUppercase>
 			<pos>0.7578125 0.2416666666666667</pos>
 			<size>0.209375 0.6755555555555556</size>
@@ -109,7 +109,7 @@
 			<pos>0.784375 0.1527777777777778</pos>
 			<size>0.15625 0.0555555555555556</size>
 			<fontSize>0.0444444444444444</fontSize>
-			<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
 			<forceUppercase>true</forceUppercase>
 			<color>555555</color>
 		</text>

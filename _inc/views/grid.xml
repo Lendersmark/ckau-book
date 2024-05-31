@@ -9,14 +9,14 @@
 			<origin>0.5 0</origin>
 			<size>0.15625 0.0555555555555556</size>
 			<fontSize>0.0444444444444444</fontSize>
-			<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
 			<color>${baseColor}</color>
 			<forceUppercase>true</forceUppercase>
 		</text>
 		<text name="md_name" extra="true">
 			<pos>0.005 0.005</pos>
 			<alignment>left</alignment>
-			<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
 			<color>${textDateColor}</color>
 			<fontSize>0.02</fontSize>
 			<zIndex>140</zIndex>
@@ -66,7 +66,7 @@
 		<text name="gridtile">
 			<color>${textDateColor}</color>
 			<backgroundColor>00000000</backgroundColor>
-			<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
 			<fontSize>0.02</fontSize>
 			<lineSpacing>0.9</lineSpacing>
 			<alignment>center</alignment>

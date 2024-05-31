@@ -59,7 +59,7 @@
 			<pos>0 0</pos>
 			<size>1 0.03</size>
 			<alignment>center</alignment>
-			<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
 			<color>FFFFFF1F</color>
 			<fontSize>0.025</fontSize>
 			<lineSpacing>1.1</lineSpacing>
@@ -157,7 +157,7 @@
 			<rotation>0</rotation>
 			<color>D0D0D0D0</color>
 			<alignment>left</alignment>
-			<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
 			<zIndex>180</zIndex>
 		</datetime>
 		<image name="md_flag">
@@ -243,7 +243,7 @@
 			<color>80808000</color>
 		</image>
       <text name="md_developer">
-		<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+		<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
 		<alignment>left</alignment>
 		<fontSize>0.026</fontSize>
 		<size>0.21 0.03</size>

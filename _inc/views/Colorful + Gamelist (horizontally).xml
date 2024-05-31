@@ -58,7 +58,7 @@
 			<pos>0.3 0.705</pos>
 			<size>0.4 0.2352</size>
 			<alignment>left</alignment>
-			<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
 			<color>666666</color>
 			<lineSpacing>1.18</lineSpacing>
 			<fontSize>0.022</fontSize>
@@ -109,7 +109,7 @@
 
 		<text name="md_players,md_genre,md_developer,md_publisher,md_playcount,md_gametime, md_releasedate, md_lastplayed">
 			<color>666666</color>
-			<fontPath>./../../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
 			<fontSize>0.0194444444444444</fontSize>
 		</text>
 		<image name="md_flag">
