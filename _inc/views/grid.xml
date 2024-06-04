@@ -41,8 +41,8 @@
 			<size>0.950 0.75</size>
 			<margin>0.005 0.010</margin>
 			<padding>0.03 0.04 0.03 0.1</padding>
-			<autoLayout>8 2</autoLayout>
-			<autoLayout if="${screen.ratio} == '21/9'">10 2</autoLayout>
+			<autoLayout>7 2</autoLayout>
+			<autoLayout if="${screen.ratio} == '21/9'">9 2</autoLayout>
 			<autoLayoutSelectedZoom>1.06</autoLayoutSelectedZoom>
 			<centerSelection>false</centerSelection>
 			<animateSelection>false</animateSelection>
