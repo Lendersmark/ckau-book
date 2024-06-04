@@ -36,7 +36,7 @@
 		 <padding>3 3</padding>
 		</gridtile>
 		<text name="gridtile">
-			<visible>false</visible>
+<visible>false</visible>
 		</text>
 		<text name="gridtile_selected">
 			<color>FFFFFF00</color>
@@ -62,6 +62,7 @@
 			<fontSize>0.025</fontSize>
 			<lineSpacing>1.1</lineSpacing>
 			<zIndex>140</zIndex>
+			<visible>true</visible>
 		</text>
 		<image name="art" extra="true">
 			<origin>0.5 0.5</origin>
@@ -124,9 +125,7 @@
          <size>0.52 0.135</size>
 			<lineSpacing>1.18</lineSpacing>
 			<fontSize>0.022</fontSize>
-			<color>FFFFFF</color>
-			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>			
-			<!--<color>D0D0D0</color>-->
+			<color>D0D0D0</color>
 			<glowColor>00000016</glowColor>
 			<glowSize>3</glowSize>
 		</text>
