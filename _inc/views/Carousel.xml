@@ -31,20 +31,13 @@
 		</gridtile>
 		<text name="gridtile">
 			<color>${textDateColor}</color>
-			<backgroundColor>00000000</backgroundColor>
-			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
 			<fontSize>0.016</fontSize>
-			<alignment>center</alignment>
-			<size>0.9 0.22</size>
-			<visible>false</visible>
+			<size>1 0</size>
 		</text>
 		<text name="gridtile_selected">
-			<color>FFFFFF</color>
-			<glowColor>${glowColor}</glowColor>
-			<glowSize>2</glowSize>
-			<fontSize>0.03</fontSize>
-			<size>1 0.22</size>
-			<visible>true</visible>
+			<color>FFFFFF00</color>
+			<fontSize>0.035</fontSize>
+			<size>1 0</size>
 		</text>
 		<ninepatch name="gridtile.background:selected">
 			<color>FFFFFF00</color>
