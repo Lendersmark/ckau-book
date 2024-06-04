@@ -185,6 +185,7 @@
 		</image>
 		<image name="md_notkidgame"> 
 			<color>${unfilledColor}</color>
+			<visible>false</visible>
 		</image>
 	</view>
 </theme>
