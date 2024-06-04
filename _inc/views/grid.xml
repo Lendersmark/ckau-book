@@ -150,7 +150,7 @@
 			<pos>0.98 0.47</pos>
 			<maxSize>0.02 0.03</maxSize>
 			<color>${textDateColor}</color>
-			<zIndex>100</zIndex>
+			<zIndex>150</zIndex>
 		</image>
 		<image name="md_notcheevos">
 			<color>${unfilledColor}</color>
