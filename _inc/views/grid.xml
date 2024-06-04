@@ -165,7 +165,7 @@
 			<zIndex>150</zIndex>
 		</image>
 		<image name="md_nosavestate">
-			<color>${textDateColor}</color>
+			<color>${unfilledColor}</color>
 		</image>
 		<image name="md_hidden">
 			<pos>0.98 0.92</pos>
