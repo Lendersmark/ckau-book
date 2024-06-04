@@ -5,7 +5,7 @@
 <!-- Сетка + подробно -->
 	<customView name="Grid + Details" inherits="grid" displayName="${gridDetailsViewName}">
 		<image name="logo,logo1">
-			<pos>.35 0.09</pos>
+			<pos>.333 0.09</pos>
 		</image>
 		<imagegrid name="gamegrid">
 			<size>0.66 0.79</size>
