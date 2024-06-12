@@ -14,7 +14,7 @@
 			<pos>0.005 0.005</pos>
 			<alignment>left</alignment>
 			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
-			<color>${clockColor}</color>
+			<color>${textNameColor}</color>
 			<fontSize>0.022</fontSize>
 			<lineSpacing>1.1</lineSpacing>
 			<zIndex>140</zIndex>
@@ -23,7 +23,7 @@
 			<glowSize>0</glowSize>
 		</text>
 		<text name="md_developer">
-			<color>${clockColor}</color>
+			<color>${textManufacturerColor}</color>
 			<pos>0.005 0.01</pos>
 			<size>0.30 0.05</size>
 			<alignment>left</alignment>
@@ -31,7 +31,7 @@
 			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
 		</text>
 		<text name="md_genre">
-			<color>${clockColor}</color>
+			<color>${textManufacturerColor}</color>
 			<pos>0.005 0.028</pos>
 			<size>0.30 0.05</size>
 			<alignment>left</alignment>
