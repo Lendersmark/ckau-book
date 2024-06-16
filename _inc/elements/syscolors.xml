@@ -55,6 +55,7 @@
 		<sysColor if="${system.theme} == 'auto-verticalarcade'">e8bb42</sysColor>
 		<sysColor if="${system.theme} == 'auto-wheel'">cc3333</sysColor>  
 		<sysColor if="${system.theme} == 'avgn'">f5bb1a</sysColor>
+		<sysColor if="${system.theme} == 'batocera'">5e61b9</sysColor>
 		<sysColor if="${system.theme} == 'batoparrot'">0a6043</sysColor>
 		<sysColor if="${system.theme} == 'bbc'">5b6559</sysColor>
 		<sysColor if="${system.theme} == 'bbcmicro'">5b6559</sysColor>
@@ -111,6 +112,7 @@
 		<sysColor if="${system.theme} == 'ep128'">31b06f</sysColor>
 		<sysColor if="${system.theme} == 'exboard'">449cec</sysColor>
 		<sysColor if="${system.theme} == 'exl100'">3b92a5</sysColor>
+		<sysColor if="${system.theme} == 'fallout-ce'">458ebc</sysColor>
 		<sysColor if="${system.theme} == 'famicom'">b93141</sysColor>
 		<sysColor if="${system.theme} == 'fba'">c12e3d</sysColor>
 		<sysColor if="${system.theme} == 'fbneo'">fa584f</sysColor>
@@ -236,6 +238,7 @@
 		<sysColor if="${system.theme} == 'neogeocd'">af91e5</sysColor>
 		<sysColor if="${system.theme} == 'neogeomvs'">d64444</sysColor>
 		<sysColor if="${system.theme} == 'nes'">b93141</sysColor>
+		<sysColor if="${system.theme} == 'nes-msu'">00b1c3</sysColor>
 		<sysColor if="${system.theme} == 'nes_hd'">939393</sysColor>
 		<sysColor if="${system.theme} == 'nes_top'">d59234</sysColor>
 		<sysColor if="${system.theme} == 'nes_aladdin'">5d3550</sysColor>

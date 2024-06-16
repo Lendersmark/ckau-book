@@ -181,67 +181,42 @@ originally based on:	art from "Colorful" by viking (https://forums.launchbox-app
 		</sound>
 	</view>
 
-<!-- System backgrounds -->
-	<subset name="systembackground" displayName="${subset.systembackground}">
-		<include name="Colorful (anim)" displayName="${ColorfulAnim}">./_inc/systemviews/animate.xml</include>
-		<include name="Colorful (no anim)" displayName="${ColorfulNoAnim}">./_inc/systemviews/noanimate.xml</include>
-		<include name="Colorful (no anim/video)" displayName="${ColorfulNoAnimNoVideo}">./_inc/systemviews/noanimatenovideo.xml</include>
-		<include name="Colorful (sidebar)" displayName="${ColorfulAnimTransparent}">./_inc/systemviews/animatetransparent.xml</include>
-		<include name="Consoles" displayName="${Art_169}">./_inc/systemviews/art_169.xml</include>
-		<include name="Wallpapers" displayName="${Art2_169}">./_inc/systemviews/art2_169.xml</include>
-		<include name="Cinematic FullScreen" displayName="${CV1}">./_inc/systemviews/cinematic.xml</include>
-		<include name="Cinematic Static" displayName="${CV2}">./_inc/systemviews/cinematic_static.xml</include>
-	</subset>
-
 <!-- Systems logos type -->
 	<subset name="systemview" displayName="${subset.systemview}">
-		<include name="Wheel (anim)" displayName="${swheelanim}">./_inc/systemviews/wheel_anim.xml</include>
-		<include name="Wheel" displayName="${swheel}">./_inc/systemviews/wheel.xml</include>
-		<include name="Wheel Left (anim)" displayName="${swheelleftanim}">./_inc/systemviews/wheel_left_anim.xml</include>
-		<include name="Wheel Left" displayName="${swheelleft}">./_inc/systemviews/wheel_left.xml</include>
-		<include name="Simple (anim)" displayName="${ssimple}">./_inc/systemviews/simple.xml</include>
-		<include name="Vertical (anim)" displayName="${sverticalanim}">./_inc/systemviews/vertical_anim.xml</include>
-		<include name="Vertical" displayName="${svertical}">./_inc/systemviews/vertical.xml</include>
-		<include name="Vertical Left (anim)" displayName="${sverticalleftanim}">./_inc/systemviews/vertical_left_anim.xml</include>
-		<include name="Vertical Left" displayName="${sverticalleft}">./_inc/systemviews/vertical_left.xml</include>
-		<include name="Horizontal" displayName="${shorizontal}">./_inc/systemviews/horizontal.xml</include>
-		<include name="Horizontal (anim)" displayName="${shorizontalanim}">./_inc/systemviews/horizontal_anim.xml</include>
-		<include name="Center" displayName="${scenter}">./_inc/systemviews/center.xml</include>
+	<include name="Wheel (anim)" displayName="${swheelanim}">./_inc/systemviews/wheel_anim.xml</include>
+	<include name="Wheel" displayName="${swheel}">./_inc/systemviews/wheel.xml</include>
+	<include name="Wheel Left (anim)" displayName="${swheelleftanim}">./_inc/systemviews/wheel_left_anim.xml</include>
+	<include name="Wheel Left" displayName="${swheelleft}">./_inc/systemviews/wheel_left.xml</include>
+	<include name="Simple (anim)" displayName="${ssimple}">./_inc/systemviews/simple.xml</include>
+	<include name="Vertical (anim)" displayName="${sverticalanim}">./_inc/systemviews/vertical_anim.xml</include>
+	<include name="Vertical" displayName="${svertical}">./_inc/systemviews/vertical.xml</include>
+	<include name="Vertical Left (anim)" displayName="${sverticalleftanim}">./_inc/systemviews/vertical_left_anim.xml</include>
+	<include name="Vertical Left" displayName="${sverticalleft}">./_inc/systemviews/vertical_left.xml</include>
+	<include name="Horizontal" displayName="${shorizontal}">./_inc/systemviews/horizontal.xml</include>
+	<include name="Horizontal (anim)" displayName="${shorizontalanim}">./_inc/systemviews/horizontal_anim.xml</include>
+	<include name="Center" displayName="${scenter}">./_inc/systemviews/center.xml</include>
+	</subset>
+
+<!-- System backgrounds -->
+	<subset name="systembackground" displayName="${subset.systembackground}">
+	<include name="Colorful (anim)" displayName="${ColorfulAnim}">./_inc/systemviews/animate.xml</include>
+	<include name="Colorful (no anim)" displayName="${ColorfulNoAnim}">./_inc/systemviews/noanimate.xml</include>
+	<include name="Colorful (no anim/video)" displayName="${ColorfulNoAnimNoVideo}">./_inc/systemviews/noanimatenovideo.xml</include>
+	<include name="Colorful (anim, sidebar)" displayName="${ColorfulAnimTransparent}">./_inc/systemviews/animatetransparent.xml</include>
+	<include name="Colorful (grid)" displayName="${ColorfulGrid}">./_inc/systemviews/grid.xml</include>
+	<include name="Consoles" displayName="${Art_169}">./_inc/systemviews/art_169.xml</include>
+	<include subset="systembackground" name="Wallpapers" displayName="${Art2_169}">./_inc/systemviews/art2_169.xml</include>
+	<include name="Cinematic FullScreen" displayName="${CV1}">./_inc/systemviews/cinematic.xml</include>
+	<include name="Cinematic Static" displayName="${CV2}">./_inc/systemviews/cinematic_static.xml</include>
 	</subset>
 
 <!-- Subset option for system bg color (need higher "System backgrounds" for work noanimate) -->
 	<subset name="sysbgcolor" displayName="${subset.sysbgcolor}">
-		<include name="Colorful" displayName="${sysbgcolorColorful}">./_inc/systemcolors/colorful.xml</include>
-		<include name="Darkful" displayName="${sysbgcolorDarkful}">./_inc/systemcolors/darkful.xml</include>
-		<include name="Blackful" displayName="${sysbgcolorBlackful}">./_inc/systemcolors/blackful.xml</include>
-		<include name="Lightful" displayName="${sysbgcolorLightful}">./_inc/systemcolors/lightful.xml</include>
-		<include name="Greyful" displayName="${sysbgcolorGreyful}">./_inc/systemcolors/greyful.xml</include>
-	</subset>
-
-<!-- Color option for gameviews -->
-	<subset name="gamelistbgcolor" displayName="${subset.gamelistbgcolor}">
-		<include name="Default" displayName="${Default}"/>
-		<include name="Dynamic" displayName="${Dynamic}"/>
-	</subset>
-
-<!-- Subset option for blur effects -->
-	<subset name="blurfx" displayName="${subset.blurfx}" ifArch="windows,x86_64" tinyScreen="false">
-		<include name="yes" displayName="${yes}">./_inc/fx/blurfx.xml</include>
-		<include name="no" displayName="${no}"/>
-	</subset>
-
-<!-- Animated gamelist logo on/off -->
-	<subset name="gamelist_logo" displayName="${gamelist_logo}">
-		<include name="On" displayName="${On_Logo3}">./_inc/views/gamelist_logo_bzz.xml</include>
-		<include name="On (Black Bars)" displayName="${On_Logo}">./_inc/views/gamelist_logo.xml</include>
-		<include name="On (No Black Bars)" displayName="${On_Logo2}">./_inc/views/gamelist_logo_noblack.xml</include>
-		<include name="Off" displayName="${Off_Logo}"></include>
-	</subset>
-
-<!-- Enable/Disable navigation arrows in System view -->
-	<subset name="arrows" displayName="${arrows}">
-		<include name="On" displayName="${on_arrows}"></include>
-		<include name="Off" displayName="${off_arrows}"></include>
+	<include name="Colorful" displayName="${sysbgcolorColorful}">./_inc/systemcolors/colorful.xml</include>
+	<include name="Darkful" displayName="${sysbgcolorDarkful}">./_inc/systemcolors/darkful.xml</include>
+	<include name="Blackful" displayName="${sysbgcolorBlackful}">./_inc/systemcolors/blackful.xml</include>
+	<include name="Lightful" displayName="${sysbgcolorLightful}">./_inc/systemcolors/lightful.xml</include>
+	<include name="Greyful" displayName="${sysbgcolorGreyful}">./_inc/systemcolors/greyful.xml</include>
 	</subset>
 
 <!-- Game views -->
@@ -281,27 +256,58 @@ originally based on:	art from "Colorful" by viking (https://forums.launchbox-app
 <!-- Presets -->
 	<include>./_inc/presets/${system.theme}.xml</include>
 
-<!-- Game views (common elements): Prefers white version of the logo -->
+<!-- Color option for gameviews (need place bottom "Game views" and "Presets")-->
+	<subset name="gamelistbgcolor" displayName="${subset.gamelistbgcolor}">
+		<include name="Default" displayName="${defaultbg}"/>
+		<include name="Dynamic" displayName="${dynamicbg}">./_inc/systemcolors/dynamic.xml</include>
+	</subset>
+
+<!-- Subset option for blur effects -->
+	<subset name="blurfx" displayName="${subset.blurfx}" ifArch="windows,x86_64" tinyScreen="false">
+	<include name="yes" displayName="${yes}">./_inc/fx/blurfx.xml</include>
+	<include name="no" displayName="${no}"/>
+	</subset>
+
+<!-- Animated gamelist logo on/off -->
+	<subset name="gamelist_logo" displayName="${gamelist_logo}">
+		<include name="On" displayName="${On_Logo3}">./_inc/views/gamelist_logo_bzz.xml</include>
+		<include name="On (Black Bars)" displayName="${On_Logo}">./_inc/views/gamelist_logo.xml</include>
+		<include name="On (No Black Bars)" displayName="${On_Logo2}">./_inc/views/gamelist_logo_noblack.xml</include>
+		<include name="Off" displayName="${Off_Logo}"></include>
+	</subset>
+
+<!-- Enable/Disable navigation arrows in System view -->
+	<subset name="arrows" displayName="${arrows}">
+		<include name="On" displayName="${on_arrows}"></include>
+		<include name="Off" displayName="${off_arrows}"></include>
+	</subset>
+
+<!-- Game views (common elements) -->
 	<view name="basic,detailed,grid,gamecarousel">
-		<image name="logo,logo1">
+		<image name="logo">
 			<path>./_inc/logos/${system.theme}.png</path>
+
 			<path>./_inc/logos/${system.theme}.svg</path>
 			<path>./_inc/logos/${system.theme}-w.svg</path>
-			<path>./_inc/logos/${system.theme}-${lang}.png</path>
-			<path>./_inc/logos/${system.theme}-${lang}.svg</path>
 			<path>./_inc/logos/${system.theme}-w-${lang}.png</path>
 			<path>./_inc/logos/${system.theme}-w-${lang}.svg</path>
+
+			<path>./_inc/logos/${system.theme}-${lang}.png</path>
+			<path>./_inc/logos/${system.theme}-${lang}.svg</path>
+		<!-- Logos for Collections -->
 			<path>./_inc/logos/collections/${system.theme}.png</path>
 			<path>./_inc/logos/collections/${system.theme}.svg</path>
 			<path>./_inc/logos/collections/${system.theme}-w.svg</path>
 			<linearSmooth>true</linearSmooth>
 		</image>
+
 		<image name="logo" region="eu"></image>
 		<image name="logo" region="us">
 			<path>./_inc/logos/us/${system.theme}.png</path>
 			<path>./_inc/logos/us/${system.theme}.svg</path>
 			<path>./_inc/logos/us/${system.theme}-w.svg</path>
-		</image>	
+		</image>
+		
 		<image name="logo" region="jp">
 		  <path>./_inc/logos/jp/${system.theme}.png</path>
 			<path>./_inc/logos/jp/${system.theme}.svg</path>
@@ -321,7 +327,7 @@ originally based on:	art from "Colorful" by viking (https://forums.launchbox-app
 	</subset>
 
 <!-- Icon animations in gameviews -->
-	<customView name="Colorful + Wheel Right (horizontally), Colorful + Wheel Left (horizontally), Colorful + Gamelist (horizontally), Colorful + Gamelist (horizontally 2), Colorful (horizontally), Colorful + Wheel Right (vertically), Colorful + Wheel Left (vertically), Colorful + Gamelist (vertically), Colorful (vertically)">
+<!-- 	<customView name="Colorful + Wheel Right (horizontally), Colorful + Wheel Left (horizontally), Colorful + Gamelist (horizontally), Colorful + Gamelist (horizontally 2), Colorful (horizontally), Colorful + Wheel Right (vertically), Colorful + Wheel Left (vertically), Colorful + Gamelist (vertically), Colorful (vertically)">
 			<image name="gametime_logo,genre_logo,developer_logo,playcount_logo,publisher_logo,release_date_logo,md_kidgame,md_notkidgame,md_hidden,md_savestate,md_nosavestate,md_cheevos,md_notcheevos,md_manual,md_nomanual,md_flag">
 				<storyboard>
 					<animation property="opacity" to="0" begin="0" duration="0" mode="linear"/>
@@ -347,7 +353,7 @@ originally based on:	art from "Colorful" by viking (https://forums.launchbox-app
 					<animation property="opacity" from="0" to="1" begin="1500" duration="2000" mode="EaseIn"/>
 				</storyboard>
 			</rating>
-	</customView>
+	</customView> -->
 
 <!-- Custom scroll sound -->
 	<include>./_inc/views/ScrollSound.xml</include>
