@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<image name="sysbg-left" extra="true">
+			<origin>0.5 0.5</origin>
+			<origin if="${screen.ratio} == '4/3'">0.35 0.4</origin>
+			<origin if="${screen.ratio} == '16/10'">0.5 0.4</origin>
+			<origin if="${screen.ratio} == '21/9'">0.14 0.5</origin>
+			<pos>0.305 0.45</pos>
+			<minSize>0.1 0.3</minSize>
+			<rotation>14</rotation>
+			<path>./../../_inc/images/space.png</path>
+			<zIndex>27</zIndex>
+			<storyboard>
+				<animation property="pos" to="0.025 0.45" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+		<image name="sysbg-right" extra="true">
+			<origin>0.5 0.5</origin>
+			<origin if="${screen.ratio} == '4/3'">0.64 0.4</origin>
+			<origin if="${screen.ratio} == '16/10'">0.51 0.4</origin>
+			<origin if="${screen.ratio} == '21/9'">0.86 0.5</origin>
+			<pos>0.695 0.45</pos>
+			<minSize>0.1 0.3</minSize>
+			<rotation>-14</rotation>
+			<path>./../../_inc/images/space.png</path>
+			<zIndex>27</zIndex>
+			<storyboard>
+				<animation property="pos" to="0.415 0.45" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+		<image name="sysbg-video-arcade" extra="true">
+			<color>000000</color>
+			<path>./../../_inc/images/space.png</path>
+			<zIndex>2</zIndex>
+			<origin>0.5 0.5</origin>
+			<origin if="${screen.ratio} == '4/3'">0.5 0.45</origin>
+			<origin if="${screen.ratio} == '16/10'">0.5 0.48</origin>
+			<pos>0.499 0.47</pos>
+			<size>0.32 0.22</size>
+			<size if="${screen.ratio} == '4/3'">0.31 0.17</size>
+			<size if="${screen.ratio} == '21/9'">0.24 0.22</size>
+			<storyboard>
+				<animation property="pos" to="0.219 0.47" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+		<video name="videoboxarcade" extra="true">
+			<path>./../../_inc/anim/video/${system.theme}.mp4</path>
+			<path>./../../_inc/anim/video/${synonym}.mp4</path>
+			<!-- Loads platform video from addon directory, if available -->
+			<path>./../../../ckau-book-addons/_inc/anim/video/${system.theme}.mp4</path>
+			<path>./../../../ckau-book-addons/_inc/anim/video/${synonym}.mp4</path>
+			<delay>0</delay>
+			<effect>none</effect>
+			<origin>0.5 0.5</origin>
+			<origin if="${screen.ratio} == '4/3'">0.5 0.44</origin>
+			<origin if="${screen.ratio} == '16/10'">0.5 0.48</origin>
+			<pos>0.4994 0.47</pos>
+			<maxSize>0.3</maxSize>
+			<zIndex>26</zIndex>
+			<storyboard>
+				<animation property="pos" to="0.2194 0.47" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</video>
+		<text name="TextDate" extra="true">
+			<text>2005</text>
+		</text>
+		<text name="TextManufacturer" extra="true">
+			<text>UNIS Technology</text>
+		</text>
+		<text name="TextName" extra="true">
+			<text>UNIS Arcade Machines</text>
+		</text>
+		<text name="TextDesc" extra="true">
+			<text>UNIS Technology is a leading developer and manufacturer of coin-operated arcade games, known for their innovative and engaging designs.
+
+With over 30 years of experience, UNIS has created a wide range of arcade games that cater to various interests and age groups.</text>
+			<text lang="pt">A UNIS Technology é um dos principais criadores e fabricantes de jogos de arcada que funcionam com moedas, conhecidos pelos seus designs inovadores e cativantes.
+
+Com mais de 30 anos de experiência, a UNIS criou uma vasta gama de jogos de arcada que satisfazem vários interesses e grupos etários.</text>
+			<text lang="it">UNIS Technology è un'azienda leader nello sviluppo e nella produzione di giochi arcade a moneta, noti per il loro design innovativo e coinvolgente.
+
+Con oltre 30 anni di esperienza, UNIS ha creato un'ampia gamma di giochi arcade che soddisfano diversi interessi e gruppi di età.</text>
+			<text lang="fr">UNIS Technology est l'un des principaux développeurs et fabricants de jeux d'arcade à pièces, connus pour leurs conceptions innovantes et attrayantes.
+
+Avec plus de 30 ans d'expérience, UNIS a créé une large gamme de jeux d'arcade qui répondent à différents intérêts et groupes d'âge.</text>
+			<text lang="de">UNIS Technology ist ein führender Entwickler und Hersteller von münzbetriebenen Arcade-Spielen, die für ihre innovativen und ansprechenden Designs bekannt sind.
+
+Mit über 30 Jahren Erfahrung hat UNIS eine breite Palette von Arcade-Spielen entwickelt, die verschiedene Interessen und Altersgruppen ansprechen.</text>
+			<text lang="es">UNIS Technology es uno de los principales desarrolladores y fabricantes de juegos arcade que funcionan con monedas, conocidos por sus diseños innovadores y atractivos.
+
+Con más de 30 años de experiencia, UNIS ha creado una amplia gama de juegos arcade que se adaptan a diversos intereses y grupos de edad.</text>
+			<text lang="ru">UNIS Technology - ведущий разработчик и производитель монетных аркадных игр, известных своим инновационным и увлекательным дизайном.
+
+Имея более чем 30-летний опыт работы, UNIS создала широкий ассортимент аркадных игр, отвечающих различным интересам и возрастным группам.</text>
+			<text lang="pl">UNIS Technology jest wiodącym deweloperem i producentem gier zręcznościowych na monety, znanym z innowacyjnych i wciągających projektów.
+				
+Dzięki ponad 30-letniemu doświadczeniu firma UNIS stworzyła szeroką gamę gier zręcznościowych, które zaspokajają różne zainteresowania i grupy wiekowe.</text>
+		</text>
+	</view>
+</theme>

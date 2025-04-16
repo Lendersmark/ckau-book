@@ -23,4 +23,63 @@
 			<size>1 0.24</size>
 		</text>
 	</customView>
+
+	<view name="gamecarousel">
+		<text name="md_name" extra="true">
+			<visible>false</visible>
+		</text>
+		<text name="game_name" extra="true">
+			<visible>true</visible>
+		</text>
+	</view>
+	
+	<customView name="Modern Grid">
+		<text name="game-name" extra="true">
+			<text>{game:name} [{game:system}]</text>
+		</text>
+	</customView>
+	
+	<customView name="WallpapersHeroes">
+		<text name="game_name" extra="true">
+			<pos>0.472 0.015</pos>
+			<extraTextColor>FFFFFF50</extraTextColor>
+			<color>FFFFFF80</color>
+			<visible>true</visible>
+		</text>
+	</customView>
+	
+	<customView name="Grid + Fanart, Carousel + Fanart">
+		<text name="md_name" extra="true">
+			<visible>false</visible>
+		</text>
+		<text name="game_name" extra="true">
+			<visible>true</visible>
+		</text>
+	</customView>
+	
+	<customView name="Modern Grid, Content">
+		<text name="md_name" extra="true">
+			<visible>false</visible>
+		</text>
+		<text name="game_name" extra="true">
+			<visible>false</visible>
+		</text>
+	</customView>
+	
+	<customView name="Carousel + Details + Marquee, Grid + Details + Marquee, Tiles, Tiles + Video, Icons, Wallpapers, WallpapersCarousel, VideoFull">
+		<text name="game_name" extra="true">
+			<pos>0.5 0.015</pos>
+			<fontSize>0.02</fontSize>
+			<visible>true</visible>
+		</text>
+	</customView>
+	
+	<customView name="Grid + Details, Logo + Details, Carousel, Carousel + Details, Colorful (vertically), Colorful (horizontally)">
+		<text name="md_name" extra="true">
+			<visible>true</visible>
+		</text>
+		<text name="game_name" extra="true">
+			<visible>false</visible>
+		</text>
+	</customView>
 </theme>

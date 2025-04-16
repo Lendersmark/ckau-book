@@ -8,6 +8,16 @@
 		<text name="TextName" extra="true">
 			<text>Super Mario War</text>
 		</text>
+		<text name="TextVariant" extra="true">
+			<text>Port</text>
+			<text lang="pl">Port</text>
+			<text lang="ru">Порт</text>
+			<text lang="es">Puerto</text>
+			<text lang="de">Hafen</text>
+			<text lang="fr">Port</text>
+			<text lang="it">Port</text>
+			<text lang="pt">Porto</text>
+		</text>
 		<text name="TextDesc" extra="true">
 			<text>Super Mario War is an open-source, platform-adventure video game and level editor first released in 2004. It is based upon gameplay elements and audiovisual media that are unofficially cloned from Nintendo's Super Mario series.
 
@@ -32,6 +42,9 @@ Les joueurs s'affrontent en sautant sur la tête de l'autre joueur ou en utilisa
 			<text lang="it">Super Mario War è un videogioco open-source di avventura a piattaforme e un editor di livelli pubblicato per la prima volta nel 2004. Si basa su elementi di gioco e supporti audiovisivi clonati non ufficialmente dalla serie Super Mario di Nintendo.
 
 Il gioco prevede che i giocatori si affrontino saltando sulla testa dell'altro giocatore o utilizzando gli oggetti che possono essere raccolti durante il gioco.</text>
+			<text lang="pt">Super Mario War é um jogo de plataforma e aventura de código aberto e editor de níveis, lançado pela primeira vez em 2004. Ele se baseia em elementos de jogabilidade e materiais audiovisuais que foram clonados não oficialmente da série Super Mario da Nintendo.
+
+No jogo, os jogadores lutam entre si, saltando na cabeça um do outro ou usando itens que podem ser coletados durante o jogo.</text>
 		</text>
 	</view>
 </theme>

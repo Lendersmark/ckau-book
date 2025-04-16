@@ -31,15 +31,15 @@ github:			https://github.com/CkauNui/ckau-book
 			<glowSize>1</glowSize>
 			<glowOffset>3 2</glowOffset>
 			<zIndex>140</zIndex>
-			<zIndex>140</zIndex>
 		</text>
 		<text name="TextAddon" extra="true">
 			<text>Addons: 4K Images, HD videos, Collections and more!</text>
 			<text lang="pl">Dodatki: Obrazy 4K, Filmy HD, Kolekcje i wiele więcej!</text>
 			<text lang="ru">Аддоны: 4K-изображения, HD-видео, коллекции и многое другое!</text>
 			<text lang="es">Complementos: Imágenes 4K, vídeos HD, colecciones y mucho más.</text>
-			<text lang="fr">Modules complémentaires : Images 4K, vidéos HD, collections et plus encore !</text>
+			<text lang="fr">Modules complémentaires : Images 4K, vidéos HD, collections et plus encore!</text>
 			<text lang="it">Componenti aggiuntivi: Immagini 4K, video HD, collezioni e molto altro!</text>
+			<text lang="pt">Traduzido por DiegroSan versão portuguesa. Ckau-book o tema, mas completos de todos.</text>
 			<alignment>center</alignment>
 			<pos>0 0.1</pos>
 			<size>1 0.034</size>

@@ -35,10 +35,12 @@
 			<visible>false</visible>
 		</image>
 		<text name="md_name" extra="true">
-			<pos>0.005 0.005</pos>
-			<alignment>left</alignment>
+			<pos>0.35 0.015</pos>
+			<size>1 0.03</size>
+			<alignment>center</alignment>
+			<origin>0.5 0.5</origin>
 			<fontPath>${fontNameBold}</fontPath>
-			<color>80808040</color>
+			<color>80808060</color>
 			<fontSize>0.024</fontSize>
 			<lineSpacing>1.1</lineSpacing>
 			<zIndex>140</zIndex>
@@ -62,6 +64,7 @@
 			<origin>0.5 1</origin>
 			<pos>0.18 0.677</pos>
 			<maxSize>0.3078125 0.585</maxSize>
+			<linearSmooth>true</linearSmooth>
 		</image>
 
 		<image name="md-description-border" extra="true">

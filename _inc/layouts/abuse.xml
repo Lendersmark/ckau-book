@@ -8,6 +8,16 @@
 		<text name="TextName" extra="true">
 			<text>Abuse</text>
 		</text>
+		<text name="TextVariant" extra="true">
+			<text>Port</text>
+			<text lang="pl">Port</text>
+			<text lang="ru">Порт</text>
+			<text lang="es">Puerto</text>
+			<text lang="de">Hafen</text>
+			<text lang="fr">Port</text>
+			<text lang="it">Port</text>
+			<text lang="pt">Porto</text>
+		</text>
 		<text name="TextDesc" extra="true">
 			<text>Abuse is a port of the classic dark 2D side-scrolling platform game originally developed by Crack dot Com and released in 1995 for MS-DOS. A Linux version was also made available at a later date. It had a few limitations the most restrictive of which was that it only ran on an 8-bit display, and only in a window.
 
@@ -30,6 +40,9 @@ Cette version d'Abuse fonctionne avec n'importe quelle profondeur de couleur et 
 			<text lang="it">Abuse è una versione del classico gioco di piattaforme a scorrimento laterale in 2D sviluppato originariamente da Crack dot Com e pubblicato nel 1995 per MS-DOS. In seguito è stata resa disponibile anche una versione per Linux. Aveva alcune limitazioni, la più restrittiva delle quali era che funzionava solo su un display a 8 bit e solo in una finestra.
 
 Questa versione di Abuse funziona con qualsiasi profondità di colore e supporta la modalità a schermo intero, oltre a molte altre nuove caratteristiche. È dotato di una ottima illuminazione, di animazioni realistiche e di creature aliene da distruggere.</text>
+			<text lang="pt">Abuse é um remake do clássico jogo de plataforma 2D sombrio de rolagem lateral, originalmente desenvolvido pela Crack dot Com e lançado em 1995 para o sistema MS-DOS. Mais tarde, uma versão para Linux também foi disponibilizada. Ela tinha algumas limitações, a mais restritiva sendo que funcionava apenas em uma tela de 8 bits e somente em uma janela.
+
+Esta versão do jogo Abuse funciona em qualquer profundidade de cor e suporta o modo tela cheia, além de muitas outras novas funcionalidades. Ele inclui iluminação impressionante, animações realistas e criaturas horríveis, parecidas com alienígenas, para serem destruídas.</text>
 		</text>
 	</view>
 </theme>

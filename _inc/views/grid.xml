@@ -14,8 +14,9 @@
 			<forceUppercase>true</forceUppercase>
 		</text>
 		<text name="md_name" extra="true">
-			<pos>0 0</pos>
+			<pos>0.5 0.015</pos>
 			<size>1 0.03</size>
+			<origin>0.5 0.5</origin>
 			<alignment>center</alignment>
 			<fontPath>${fontNameBold}</fontPath>
 			<color>FFFFFF1F</color>
@@ -33,7 +34,7 @@
 		</image>
 		<image name="logo">
 			<pos>0.5 0.09</pos>
-			<maxSize>0.260 0.126</maxSize>
+			<maxSize>0.240 0.126</maxSize>
 			<origin>0.5 0.5</origin>
 			<zIndex>150</zIndex>
 		</image>
@@ -100,13 +101,14 @@
 		</ninepatch>
 		<datetime name="md_releasedate">
 			<origin>0.5 1</origin>
-			<pos>0.98 0.78</pos>
+			<pos>0.98 0.76</pos>
 			<size>0.1 0.0222</size>
 			<rotation>-90</rotation>
 			<alignment>left</alignment>
 			<format>%Y</format>
+			<glowSize>3</glowSize>
 			<fontPath>${fontDescReg}</fontPath>
-			<fontSize>0.024</fontSize>
+			<fontSize>0.022</fontSize>
 			<color>666666</color>
 			<zIndex>180</zIndex>
 		</datetime>

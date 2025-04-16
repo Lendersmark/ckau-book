@@ -33,14 +33,14 @@ originally based on:	art from "Colorful" by viking (https://forums.launchbox-app
 
 <!-- Цвета меню / Menu Color -->
 	<subset name="colorset" displayName="${subset.colorset}">
-	<include name="Blue" displayName="${blue}">./_inc/colors/blue.xml</include>
-	<include name="Cyan" displayName="${cyan}">./_inc/colors/cyan.xml</include>
-	<include name="Gray" displayName="${gray}">./_inc/colors/gray.xml</include>
-	<include name="Green" displayName="${green}">./_inc/colors/green.xml</include>
-	<include name="Orange" displayName="${orange}">./_inc/colors/orange.xml</include>
-	<include name="Red" displayName="${red}">./_inc/colors/red.xml</include>
-	<include name="Violet" displayName="${violet}">./_inc/colors/violet.xml</include>
-	<include name="Yellow" displayName="${yellow}">./_inc/colors/yellow.xml</include>
+		<include name="Blue" displayName="${blue}">./_inc/colors/blue.xml</include>
+		<include name="Cyan" displayName="${cyan}">./_inc/colors/cyan.xml</include>
+		<include name="Gray" displayName="${gray}">./_inc/colors/gray.xml</include>
+		<include name="Green" displayName="${green}">./_inc/colors/green.xml</include>
+		<include name="Orange" displayName="${orange}">./_inc/colors/orange.xml</include>
+		<include name="Red" displayName="${red}">./_inc/colors/red.xml</include>
+		<include name="Violet" displayName="${violet}">./_inc/colors/violet.xml</include>
+		<include name="Yellow" displayName="${yellow}">./_inc/colors/yellow.xml</include>
 	</subset>
 
 <!-- Меню / Menu -->
@@ -122,12 +122,13 @@ originally based on:	art from "Colorful" by viking (https://forums.launchbox-app
 <!-- Clock, gamepad icons, battery indicator -->
 	<view name="screen">
 		<text name="clock">
-			<fontSize>0.024</fontSize>
-			<pos>0.90 0.945</pos>
+			<fontSize>0.025</fontSize>
+			<pos>0.925 0.945</pos>
 			<size>0.09 0.058</size>
-			<alignment>right</alignment>
+			<alignment>center</alignment>
 			<verticalAlignment>center</verticalAlignment>
 			<fontPath>${fontDescReg}</fontPath>
+			<lineSpacing>1</lineSpacing>
 		</text>
 		<controllerActivity name="controllerActivity">
 			<pos>0.005 0.005</pos>
@@ -157,15 +158,21 @@ originally based on:	art from "Colorful" by viking (https://forums.launchbox-app
 	</view>
 
 	<view name="system">
-		<text name="systemInfo" extra="static">
+		<text ifSubset="showgamescount:yes" name="systemInfo" extra="static">
 			<backgroundColor>14141400</backgroundColor>
 			<color>777777FF</color>
 			<fontPath>${fontDescReg}</fontPath>
-			<pos>0.85 0.945</pos>
+			<pos>0.84 0.945</pos>
+			<pos if="${screen.ratio} == '21/9'">0.85 0.945</pos>
 			<size>0.10 0.058</size>
 			<alignment>right</alignment>
 			<fontSize>0.025</fontSize>
 			<zIndex>93</zIndex>
+		</text>
+		<!-- Move gamecount to the right if the clock is disabled -->
+		<text ifSubset="showgamescount:yes" if="${global.clock} == 'false'" name="systemInfo" extra="static">
+			<pos>0.89 0.945</pos>
+			<pos if="${screen.ratio} == '21/9'">0.9 0.945</pos>
 		</text>
 		<carousel name="systemcarousel">
 			<color>00000000</color>
@@ -218,7 +225,7 @@ originally based on:	art from "Colorful" by viking (https://forums.launchbox-app
 	<include name="Colorful (anim, sidebar)" displayName="${ColorfulAnimTransparent}">./_inc/systemviews/animatetransparent.xml</include>
 	<include name="Colorful (grid / WIP)" displayName="${ColorfulGrid}">./_inc/systemviews/grid.xml</include>
 	<include name="Consoles" displayName="${Art_169}">./_inc/systemviews/art_169.xml</include>
-	<include subset="systembackground" name="Wallpapers" displayName="${Art2_169}">./_inc/systemviews/art2_169.xml</include>
+	<include name="Wallpapers" displayName="${Art2_169}">./_inc/systemviews/art2_169.xml</include>
 	<include name="Cinematic FullScreen" displayName="${CV1}">./_inc/systemviews/cinematic.xml</include>
 	<include name="Cinematic Static" displayName="${CV2}">./_inc/systemviews/cinematic_static.xml</include>
 	</subset>
@@ -244,6 +251,7 @@ originally based on:	art from "Colorful" by viking (https://forums.launchbox-app
 	<include>./_inc/views/Grid + Details.xml</include>
 	<include>./_inc/views/Grid + Details + Marquee.xml</include>
 	<include>./_inc/views/Grid + Fanart.xml</include>
+	<include>./_inc/views/Modern Grid.xml</include>
 	<include>./_inc/views/Logo + Details.xml</include>
 	<include>./_inc/views/Wallpapers.xml</include>
 	<include>./_inc/views/WallpapersCarousel.xml</include>
@@ -272,10 +280,22 @@ originally based on:	art from "Colorful" by viking (https://forums.launchbox-app
 		<include name="Dynamic" displayName="${dynamicbg}">./_inc/systemcolors/dynamic.xml</include>
 	</subset>
 
+<!-- Subset option for showing number of games in Colorful -->
+	<subset name="showgamescount" displayName="${subset.showgamescount}">
+		<include name="yes" displayName="${yes}"/>
+		<include name="no" displayName="${no}"/>
+	</subset>
+
+<!-- Subset option for Hotheys Help Image -->
+	<subset name="hotkey-help" displayName="${theme.hotkey}">
+		<include name="yes" displayName="${yes}"/>
+		<include name="no" displayName="${no}"/>
+	</subset>
+
 <!-- Subset option for blur effects -->
 	<subset name="blurfx" displayName="${subset.blurfx}" ifArch="windows,x86_64" tinyScreen="false">
-	<include name="yes" displayName="${yes}">./_inc/fx/blurfx.xml</include>
-	<include name="no" displayName="${no}"/>
+		<include name="yes" displayName="${yes}">./_inc/fx/blurfx.xml</include>
+		<include name="no" displayName="${no}"/>
 	</subset>
 
 <!-- Animated gamelist logo on/off -->
@@ -310,7 +330,7 @@ originally based on:	art from "Colorful" by viking (https://forums.launchbox-app
 			<path>./_inc/logos/collections/${system.theme}-w.svg</path>
 			<linearSmooth>true</linearSmooth>
 		</image>
-
+	<!-- Regional consoles/computers -->
 		<image name="logo" region="eu"></image>
 		<image name="logo" region="us">
 			<path>./_inc/logos/us/${system.theme}.png</path>
@@ -331,6 +351,8 @@ originally based on:	art from "Colorful" by viking (https://forums.launchbox-app
 		<include name="xboxbuttons" displayName="${xboxbuttons}">./_inc/help/xboxbuttons.xml</include>
 		<include name="psxbuttons" displayName="${psxbuttons}">./_inc/help/psxbuttons.xml</include>
 		<include name="psxbuttons_color" displayName="${psxbuttons_color}">./_inc/help/psxbuttons_color.xml</include>
+		<include name="ps5buttons" displayName="${ps5buttons}">./_inc/help/ps5buttons.xml</include>
+		<include name="oculusbuttons" displayName="${oculusbuttons}">./_inc/help/oculus.xml</include>
 		<include name="arcadebuttons" displayName="${arcadebuttons}">./_inc/help/arcadebuttons.xml</include>
 		<include name="ninbuttons" displayName="${ninbuttons}">./_inc/help/nintendo.xml</include>
 		<include name="standard" displayName="${stbuttons}">./_inc/help/default.xml</include>
