@@ -4,32 +4,36 @@
 <formatVersion>7</formatVersion>
 <!-- Modern Grid -->
 	<customView name="Modern Grid" inherits="grid" displayName="${modernGridViewName}">
-		<image name="logo1,transitionMaskUp,transitionMaskDown,gamelistPreloading,gamelistPreloadingShadow">
+		<image name="logo,logo1,transitionMaskUp,transitionMaskDown,gamelistPreloading,gamelistPreloadingShadow">
 			<visible>false</visible>
 		</image>
-		<image name="logo">
-			<pos>0.04 0.125</pos>
-			<maxSize>0.09 0.09</maxSize>
-			<origin>0 1</origin>
-			<bottom>0</bottom>
-			<zIndex>150</zIndex>
-			<!--<visible>false</visible>-->
+
+		<!-- Display system logo for each game -->
+		<!-- Prefer white system logo for dark colorsets -->
+		<image name="game-logo" extra="true" ifSubset="sysbgcolor:Blackful|Darkful, gamelistbgcolor:Dynamic">
+		  <pos>0.04 0.125</pos>
+		  <maxSize>0.09 0.09</maxSize>
+		  <origin>0 1</origin>
+		  <zIndex>150</zIndex>
+		  <path>firstfile(
+		    "${themePath}/_inc/logos/" + {game:system:theme} + "-w.svg",
+		    "${themePath}/_inc/logos/" + {game:system:theme} + "-w.png",
+		    "${themePath}/_inc/logos/" + {game:system:theme} + ".svg",
+		    "${themePath}/_inc/logos/" + {game:system:theme} + ".png"
+		  )</path>
 		</image>
 
-		<!-- Also shows the system logo if in "All games" or in a collection
-		<image name="game-system-logo" extra="true">
-			<pos>0.04 0.125</pos>
-			<maxSize>0.09 0.09</maxSize>
-			<origin>0 1</origin>
-			<bottom>0</bottom>
-			<zIndex>150</zIndex>
-			<path>${themePath}/_inc/logos/{game:system}.png</path>
-			<path>${themePath}/_inc/logos/{game:system}.svg</path>-->
-			<!-- If darkful or blackful, prefer white versions of the logo
-			<path>${themePath}/_inc/logos/{game:system}-w.png</path>
-			<path>${themePath}/_inc/logos/{game:system}-w.svg</path>
-			<visible>{system:name} = "all"</visible>
-		</image>-->
+		<!-- Prefer non-white system logo for light colorsets -->
+		<image name="game-logo" extra="true" ifSubset="sysbgcolor:Colorful|Lightful|Greyful">
+		  <pos>0.04 0.125</pos>
+		  <maxSize>0.09 0.09</maxSize>
+		  <origin>0 1</origin>
+		  <zIndex>150</zIndex>
+		  <path>firstfile(
+		    "${themePath}/_inc/logos/" + {game:system:theme} + ".svg",
+		    "${themePath}/_inc/logos/" + {game:system:theme} + ".png"
+		  )</path>
+		</image>
 
 		<imagegrid name="gamegrid">
 			<pos>0.016 0.5</pos>
