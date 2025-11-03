@@ -45,7 +45,7 @@ Optional addons (4K images, videos, console arts, wallpapers, etc.) can be insta
 
 ### 💡 How to Install Addons
 
-#### 🐧 On **Batocera**
+#### 🐧 Addons manager (Only for **Batocera**)
 You can install and update addons automatically using the included script:
 ```
 tools/install-addons-batocera.sh
@@ -57,9 +57,11 @@ It also supports command-line usage and will automatically keep track of install
 📘 For full usage instructions, see  
 [`tools/install-addons-instructions.md`](tools/install-addons-instructions.md)
 
-#### 🪟 On **Retrobat**
-Currently there is **no automatic installer** for RetroBat.  
-Addons must be downloaded manually from the corresponding GitHub repositories:
+#### 🪟 Manual mode (Both for **Batocera** and **Retrobat**)
+Currently there is **no automatic installer** for RetroBat.
+Batocera users can choose to use manual mode too.
+
+In this case, addons must be downloaded manually from the corresponding GitHub repositories:
 
 | Addon | Repository | Description |
 | :-- | :-- | :-- |
