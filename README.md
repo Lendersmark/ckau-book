@@ -1,34 +1,25 @@
 # Ckau-Book
 
-Download [Latest version](https://github.com/CkauNui/ckau-book/archive/refs/heads/master.zip). It is better to download and update via EmulationStation (ES).<br/>
-Download [Old Ckau-Book 2.0 (2025)](https://drive.google.com/file/d/1UrNCiXP8hPNvTUDILyaGTuyB1guhW-Xj/view?usp=sharing) for old ver. Batocera/RetroBat or old ES.<br/>
-Download [Very Old Ckau-Book (2023)](https://drive.google.com/file/d/1GOpP9HHNuaKdBdOTzB6GAZoH8uRjj6cm/view?usp=sharing) for old ver. Batocera/RetroBat or old ES.<br/><br/>
+Download [Latest version](https://github.com/CkauNui/ckau-book/archive/refs/heads/master.zip). It is better to download and update via EmulationStation (ES).  
+Download [Old Ckau-Book 2.0 (2025)](https://drive.google.com/file/d/1UrNCiXP8hPNvTUDILyaGTuyB1guhW-Xj/view?usp=sharing) for old versions of Batocera/RetroBat or ES.  
+Download [Very Old Ckau-Book (2023)](https://drive.google.com/file/d/1GOpP9HHNuaKdBdOTzB6GAZoH8uRjj6cm/view?usp=sharing) for older setups.
+
 <p>
 <img align="right" width="200px" src="https://i.imgur.com/eCZPBDE.png">
 Emulationstation Theme for Batocera, RetroBat, EmuELEC.<br/>
 456+ supported systems.<br/>
 Supported languages: English, French, German, Spanish, Italian, Polish, Portuguese, Russian.
-<br/>
-<br/>
-</p>
-<p>
-      <a href="https://img.shields.io/github/stars/CkauNui/ckau-book" alt="stars">
-        <img src="https://img.shields.io/github/stars/CkauNui/ckau-book" /></a>
-      <a href="https://img.shields.io/github/forks/CkauNui/ckau-book" alt="Forks">
-        <img src="https://img.shields.io/github/forks/CkauNui/ckau-book" /></a>
-      <a href="https://img.shields.io/github/issues/CkauNui/ckau-book" alt="Issues">
-        <img src="https://img.shields.io/github/issues/CkauNui/ckau-book" /></a>
-      <a href="https://img.shields.io/github/issues-closed/CkauNui/ckau-book" alt="Issues Closed">
-        <img src="https://img.shields.io/github/issues-closed/CkauNui/ckau-book" /></a>
-      <a href="https://img.shields.io/github/issues-pr-closed/CkauNui/ckau-book" alt="Closed PR">
-        <img src="https://img.shields.io/github/issues-pr-closed/CkauNui/ckau-book" /></a>
 </p>
 
+---
+
 ## Video Playlist
-[Ckau-Book 2.0 Update](https://youtu.be/ZZAhYxToddg)<br/>
-[Ckau-Book 3.0 Update](https://youtu.be/Vzy6Q1oy1y0?si=Uj4blm9zB6QUs6K9)<br/>
-[Ckau-Book 3.0 - Anbernic Update](https://youtu.be/BMwluAKQzsg?si=LKmv8PJ02bFg3FMK)<br/>
+[Ckau-Book 2.0 Update](https://youtu.be/ZZAhYxToddg)  
+[Ckau-Book 3.0 Update](https://youtu.be/Vzy6Q1oy1y0?si=Uj4blm9zB6QUs6K9)  
+[Ckau-Book 3.0 - Anbernic Update](https://youtu.be/BMwluAKQzsg?si=LKmv8PJ02bFg3FMK)  
 [YouTube Playlist](https://www.youtube.com/playlist?list=PLlc3zkd7FLPScpaFz9Gf7WWrcR0v21pDv)
+
+---
 
 ## Screenshots
 
@@ -38,72 +29,87 @@ Supported languages: English, French, German, Spanish, Italian, Polish, Portugue
 | ![](https://i.imgur.com/NG1P5FZ.png?raw=true) | ![](https://i.imgur.com/BZyUFDn.png?raw=true) | ![](https://i.imgur.com/FeKK9KN.png?raw=true) |
 | ![](https://i.imgur.com/n6fcyqE.png?raw=true) | ![](https://i.imgur.com/J4n82Pe.png?raw=true) | ![](https://i.imgur.com/OByObVo.png?raw=true) |
 
-## Addons: 4K Images, videos, collections and more!
-UPD. Moved all addons outside the theme folder, in order to preserve addon files when updating theme through EmulationStation.
+---
 
-`/themes/ckau-book` - theme directory<br/>
-`/themes/ckau-book-addons` - addons directory, which will not be overwritten by ES update procedure.
+## Addons: 4K Images, Videos, Collections and More!
 
+To reduce download size, the base theme includes only essential assets.  
+Optional addons (4K images, videos, console arts, wallpapers, etc.) can be installed separately.
 
-To reduce download size, each release is provided with Colorful and Darkful system views, and Full HD 1920x1080 images for all supported systems.
+### 📦 Addon Structure
 
-To download addons, please refer to the file named `(OPTIONAL) download video, 4K images, cinematic, collections, arts.txt` in the theme root directory or download them directly from the following GitHub repositories to always get the latest version:
+```
+/themes/ckau-book          → Main theme directory
+/themes/ckau-book-addons   → Addons directory (not overwritten by ES updates)
+```
 
-|                                    |                                    |                                    
-| :--------------------------------: | :--------------------------------: |
-| [COLORFUL 4K Images](https://github.com/CkauNui/ckau-book-addons-Colorful-4K-Images) | High-detailed, beautiful 3840x2160 system images for both Colorful and Darkful views
-| [COLORFUL Video Pack](https://github.com/CkauNui/ckau-book-addons-Colorful-Video) | A gameplay video for each system will show as default in Colorful/Darkful
-| [CINEMATIC Video Pack](https://github.com/CkauNui/ckau-book-addons-Cinematic-Video) |  Change systemview to "Cinematic FullScreen" to activate it
-| [CONSOLES](https://github.com/CkauNui/ckau-book-addons-Consoles) / [WALLPAPERS Arts](https://github.com/CkauNui/ckau-book-addons-Wallpapers) | Change systemview to "Consoles" or "Wallpapers" to activate them
+### 💡 How to Install Addons
 
-## Support for additional systems
+#### 🐧 On **Batocera**
+You can install and update addons automatically using the included script:
+```
+tools/install-addons-batocera.sh
+```
 
-In addition to covering all systems in the latest version of Batocera/Retrobat, the theme also supports a list of other systems that are not (yet) officially part of Batocera/Retrobat, such as Aleck64, Amiga 600/4000, Casio Loopy, Dragon 32 etc.
-These systems can be easily added to your environment, without the need to setup new emulators or tamper with your existing configuration files.
+This script provides an interactive menu for managing all official addons (4K images, videos, console arts, wallpapers, etc.).  
+It also supports command-line usage and will automatically keep track of installed versions.  
 
-Check **Ckau Book Custom Systems - [Batocera](https://github.com/g-spawnPL/ckau-book-custom-systems-Batocera) and [Retrobat](https://github.com/g-spawnPL/ckau-book-custom-systems-Retrobat)** repository to download the additional XML files for your setup.
+📘 For full usage instructions, see  
+[`tools/install-addons-instructions.md`](tools/install-addons-instructions.md)
 
+#### 🪟 On **Retrobat**
+Currently there is **no automatic installer** for RetroBat.  
+Addons must be downloaded manually from the corresponding GitHub repositories:
+
+| Addon | Repository | Description |
+| :-- | :-- | :-- |
+| [COLORFUL 4K Images](https://github.com/CkauNui/ckau-book-addons-Colorful-4K-Images) | High-detailed, beautiful 3840x2160 system images |
+| [COLORFUL Video Pack](https://github.com/CkauNui/ckau-book-addons-Colorful-Video) | Gameplay videos for each system |
+| [CINEMATIC Video Pack](https://github.com/CkauNui/ckau-book-addons-Cinematic-Video) | Full-screen cinematic system view |
+| [CONSOLES](https://github.com/CkauNui/ckau-book-addons-Consoles) / [WALLPAPERS](https://github.com/CkauNui/ckau-book-addons-Wallpapers) | Console or wallpaper-based layouts |
+
+---
+
+## Support for Additional Systems
+
+In addition to covering all systems in the latest version of Batocera/Retrobat, the theme also supports extra systems not officially included (e.g., Aleck64, Amiga 600/4000, Casio Loopy, Dragon 32, etc.).
+
+Check **Ckau Book Custom Systems - [Batocera](https://github.com/g-spawnPL/ckau-book-custom-systems-Batocera)** and **[Retrobat](https://github.com/g-spawnPL/ckau-book-custom-systems-Retrobat)** to download the XML configuration files.
+
+---
 
 ## Credits
 
-- Theme autor:
+- Theme author:
   - Ckau ([@CkauNui](https://github.com/CkauNui))
-  - Thanks to [@Lendersmark](https://github.com/Lendersmark) and [@g-spawnPL](https://github.com/g-spawnPL) for designing artworks & helping with the project
+- Contributors:
+  - Thanks to [@Lendersmark](https://github.com/Lendersmark) and [@g-spawnPL](https://github.com/g-spawnPL) for designing artworks & supporting the project
 - Based on:
-  - [Carbon](https://github.com/fabricecaruso/es-theme-carbon) theme by [@fabricecaruso](https://github.com/fabricecaruso)
-  - [Art Book](https://github.com/anthonycaccese/es-theme-art-book) theme by [@anthonycaccese](https://github.com/anthonycaccese)
-  - artworks from [Colorful](https://forums.launchbox-app.com/topic/51590-colorful-bigbox-theme) Launchbox/Bigbox theme by [Viking](https://forums.launchbox-app.com/profile/70421-viking)
-  - artworks from "Alekfull Bello v2" by [@fagnerpc](https://github.com/fagnerpc)
+  - [Carbon](https://github.com/fabricecaruso/es-theme-carbon) by [@fabricecaruso](https://github.com/fabricecaruso)
+  - [Art Book](https://github.com/anthonycaccese/es-theme-art-book) by [@anthonycaccese](https://github.com/anthonycaccese)
+  - Assets from [Colorful](https://forums.launchbox-app.com/topic/51590-colorful-bigbox-theme) by [Viking](https://forums.launchbox-app.com/profile/70421-viking)
+  - Elements from “Alekfull Bello v2” by [@fagnerpc](https://github.com/fagnerpc)
+
+---
 
 ## License
 
-- ALLOWED
-  - Share and duplicate as it is
-  - Edit, alter, change it
-- REQUIREMENTS:
-  - Attribution, give credit to the creator
-  - Indicate changes to it
-  - Publish the changes under the same license
-- PROHIBITED:
+- **Allowed**
+  - Share and duplicate as it is  
+  - Edit, alter, change it  
+- **Requirements**
+  - Give credit to the creator  
+  - Indicate changes  
+  - Publish derivative works under the same license  
+- **Prohibited**
   - Commercial distribution
 
 ### Copyrights / Sources
-- Each brand of hardware and software here represented as a tribute.<br/>
-- All logos, trademarks and photos are copyright of their respective owners.<br/>
-- The [Vanamo Online Game Museum](https://commons.wikimedia.org/wiki/User:Evan-Amos) for most of the photos.<br/>
-- PICO-8 image taken from [PICO-8 Handheld Console Concept](https://www.behance.net/gallery/143131355/PICO-8-Handheld-Console-Concept) by Luiz Felipe Moura.
+All brands, logos, and photos are property of their respective owners.  
+Most console photos from the [Vanamo Online Game Museum](https://commons.wikimedia.org/wiki/User:Evan-Amos).  
+PICO-8 image by [Luiz Felipe Moura](https://www.behance.net/gallery/143131355/PICO-8-Handheld-Console-Concept).
 
-### Logo Notice
+---
 
-The used logos and trademarks are copyright of their respective owners.
-  
-Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
-
-This work is licensed under a
-[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
-
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
-
-[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
-[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
-[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+**License:** [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)  
+![CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
